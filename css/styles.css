@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Kalnia&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Arya:wght@400;800&display=swap";
+.fontPoppins {
+    font-family: Poppins, sans-serif
+}
+
+.fontNoto {
+    font-family: "noto serif devanagari", sans-serif
+}
+
+.fontKalnia {
+    font-family: Kalnia, serif
+}
+
+.fontArya {
+    font-family: Arya, sans-serif
+}
+
+body {
+    font-family: "noto serif devanagari", sans-serif;
+    background-color: #f6f5f5
+}
+
+.clippath_top {
+    background-color: #f5ce19;
+    -webkit-clip-path: polygon(0 0, 100% 60%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 60%, 100% 100%, 0 100%)
+}
+
+.clippath_bottom {
+    background-color: #f5ce19;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 35%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 35%)
+}
+
+.talk-bubble {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    background-color: #fff444
+}
+
+.tri-right.btm-left:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 20px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 22px solid transparent;
+    border-left-color: #fff444
+}
+
+.talktext {
+    line-height: 1.5em
+}
+
+.talktext p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0
+}
